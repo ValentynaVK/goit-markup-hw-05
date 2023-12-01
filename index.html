@@ -249,5 +249,66 @@
         </a></ul> </div>
     </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="modal-close-btn">
+                <svg class="modal-close-btn-icon" width="8" height="8" aria-label="close modal icon">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="contacts-form-description">Leave your contacts and we will call you back</p>
+            
+            <form class="contacts-form">
+        <div class="contacts-form-field-wrapper"><label class="cotacts-form-field-label" for="user-name" >Name</label> 
+            <input class="contacts-form-input" 
+            id="user-name" 
+            name="user-name"
+            type="text" 
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" 
+            title="Oleksandr" 
+            required
+            />
+        </div>
+
+        <div class="contacts-form-field-wrapper"><label class="cotacts-form-field-label" for="user-email" >Phone</label>
+        <input class="contacts-form-input"
+        id="user-email"
+        name="user-email"
+        type="email"
+        required
+        />
+        </div>
+
+        <div class="contacts-form-field-wrapper"><label class="cotacts-form-field-label" for="user-tel">Email</label>
+            <input class="contacts-form-input"
+            id="user-tel"
+            name="user-tel"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            required
+            />
+            
+        </div>
+        <div class="contacts-form-field-wrapper"><label class="cotacts-form-field-label" for="user-comment" >Comment</label> 
+            <textarea
+            class="contacts-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Text input" >
+            </textarea> 
+        </div>
+        <div class="contacts-form-checkbox-wrapper">
+            <label class="contacts-form-checkbox-label" for="user-privacy-policy" >I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+            <input class="contacts-form-checkbox-input" 
+            id="user-privacy-policy"
+            name="user-privacy-policy" 
+            type="checkbox"
+            value="true"
+            required/>
+            </div>
+<button class="contacts-form-submit-btn" type="submit">Send</button>
+    </form>
+    
 </body>
 </html>
