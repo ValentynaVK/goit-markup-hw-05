@@ -183,11 +183,12 @@ margin-right: auto;
 }
 button {
     cursor: pointer;
-    background: #4D5AE5;
-    
 }
-button:hover,
-button:focus{
+.b-text{
+    background: #4D5AE5;
+}
+.b-text:hover,
+.b-text:focus{
     background-color: #404BBF;
 }
 
