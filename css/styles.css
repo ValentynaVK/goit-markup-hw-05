@@ -538,10 +538,9 @@ letter-spacing: 0.02em;
     height: 24px;
     line-height: 0;
     background-color: #E7E9FC;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.10);
     border-radius: 50%;
-    transition: fill 250ms linear;
+    transition: fill 250ms cubic-bezier();
+    border: 1px solid  rgba(0, 0, 0, 0.10);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
@@ -566,11 +565,13 @@ margin-bottom: 16px;
     background-color: transparent;
     border: 1px solid #8E8F99;
     margin-bottom: 8px;
+    outline: transparent;
 }
 .contacts-form-input:focus,
 .contacts-form-input:hover {
     border: 1px solid #4D5AE5;
 }
+
 .cotacts-form-field-label{
     color: #8E8F99;
 font-size: 12px;
@@ -585,9 +586,13 @@ margin-bottom: 4px;
 }
 .contacts-input-icon{
     position: absolute;
-    top: 0;
-    left: 0;
-    
-    
+    top: 50%;
+    left: 16px;
+    bottom: 8px;
+    fill: #2E2F42;
+    transform: translateY(-50%);
+    transition: 250ms linear;
 }
-
+..contacts-input-icon{
+    fill: #4D5AE5;
+}
