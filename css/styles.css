@@ -586,8 +586,7 @@ fill: #F4F4FD;
   fill: transparent;
 
 }
-.contacts-form-checkbox-icon {
-}
+
 .accent-color {
   color: #4d5ae5;
 }
@@ -710,8 +709,8 @@ fill: #F4F4FD;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-form-input-icon:focus,
-.contacts-form-input-icon:hover{
+input:focus,
+input:hover{
     border: 1px solid #4d5ae5;
     fill: #4D5AE5; 
 }
