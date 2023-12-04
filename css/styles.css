@@ -681,8 +681,7 @@ fill: #F4F4FD;
     width: 360px;
     margin-bottom: 16px;
 }
-.contacts-form {
-}
+
 .contacts-form-field-wrapper {
     position: relative;
     margin-bottom: 8px;
@@ -695,6 +694,7 @@ fill: #F4F4FD;
     display: block;
     margin-bottom: 4px;
 }
+
 .contacts-form-input-wrapper {
     position: relative;
 }
@@ -728,8 +728,7 @@ fill: #F4F4FD;
 .contacts-form-input-icon:focus{
     fill: #4D5AE5;
 }
-.contacts-form-comment {
-}
+
 .comment{
     margin-bottom: 16px;
 }
