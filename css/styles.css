@@ -463,6 +463,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.media-bottom{
+  margin-right: 80px;
+}
 .media-text {
   font-weight: 500;
   font-size: 16px;
@@ -500,6 +503,7 @@ button {
   display: flex;
   align-items: center;
 }
+
 .underline-form-text{
   margin-bottom: 16px;
   font-weight: 500; 
@@ -749,4 +753,7 @@ textarea{
 }
 textarea:focus{
     border-color: #4D5AE5;
+}
+.name-react:focus{
+  fill: #4D5AE5; 
 }
