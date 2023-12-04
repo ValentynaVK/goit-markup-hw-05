@@ -710,8 +710,8 @@ fill: #F4F4FD;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-form-input:focus,
-.contacts-form-input:hover{
+.contacts-form-input-icon:focus,
+.contacts-form-input-icon:hover{
     border: 1px solid #4d5ae5;
     fill: #4D5AE5; 
 }
@@ -725,9 +725,7 @@ fill: #F4F4FD;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input+.svg:focus{
-    fill: #4D5AE5;
-}
+
 
 .comment{
     margin-bottom: 16px;
@@ -749,6 +747,9 @@ textarea{
     
 
 
+}
+.contacts-form-input:focus{
+  border-color: #4D5AE5;
 }
 textarea:focus{
     border-color: #4D5AE5;
