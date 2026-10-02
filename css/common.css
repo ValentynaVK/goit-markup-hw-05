@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -150,10 +154,7 @@ img {
   color: #f4f4fd;
 }
 
-
-
 .socials-link:hover,
 .socials-link:focus {
   background-color: #404bbf;
 }
-
