@@ -118,7 +118,7 @@
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   font-weight: 400;
   color: #8e8f99;
@@ -166,7 +166,7 @@
 
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #434455;
 
@@ -190,7 +190,7 @@
 .modal-form-policy {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -235,7 +235,7 @@
   opacity: 1;
 }
 .modal-form-link {
-  line-height: 1.16;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
