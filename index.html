@@ -584,25 +584,24 @@
         <div class="footer-form-container">
           <p class="footer-form-caption">Subscribe</p>
           <form class="footer-form" name="subscription">
-            <div class="footer-form-wrapper">
-              <input
-                class="footer-form-input"
-                type="email"
-                name="user_subscription"
-                placeholder="E-mail"
-              />
-              <div class="subscribe-btn-wrapper">
-                <button class="footer-form-btn" type="submit">Subscribe</button>
-                <svg class="footer-form-icon" width="24" height="24">
+            <input
+              class="footer-form-input"
+              type="email"
+              name="user_subscription"
+              placeholder="E-mail"
+            />
+            <div class="subscribe-btn-wrapper">
+              <button class="footer-form-btn" type="submit">
+                Subscribe<svg class="footer-form-icon" width="24" height="24">
                   <use href="./images/icons.svg#send"></use>
                 </svg>
-              </div>
+              </button>
             </div>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -629,7 +628,7 @@
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#user"></use>
-             
+              </svg>
             </div>
           </div>
 
@@ -661,7 +660,6 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#email"></use>
               </svg>
-              
             </div>
           </div>
 
